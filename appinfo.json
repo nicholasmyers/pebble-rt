@@ -7,15 +7,17 @@
     "capabilities": [
         "location"
     ],
-    "companyName": "Katharine",
-    "longName": "Caltrain",
+    "companyName": "Nick Myers",
+    "enableMultiJS": false,
+    "longName": "SacRT LightRail TimeTable",
     "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/caltrain-icon.png",
+                "file": "images/sacrt-icon.png",
                 "menuIcon": true,
                 "name": "IMAGE_MENU_ICON",
+                "targetPlatforms": null,
                 "type": "bitmap"
             },
             {
@@ -51,14 +53,14 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Caltrain",
+    "shortName": "SacRT LRT TT",
     "targetPlatforms": [
         "aplite",
         "basalt",
         "chalk"
     ],
-    "uuid": "40df227e-4715-4369-82ca-ec9de58889ea",
-    "versionLabel": "1.8",
+    "uuid": "225674d2-de87-40bf-bf59-2568909618cf",
+    "versionLabel": "0.5",
     "watchapp": {
         "watchface": false
     }
