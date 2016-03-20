@@ -1,4 +1,4 @@
-pebble-caltrain
+pebble-rt
 ===============
 
-Simple CalTrain app for Pebble
+Simple Regional Transit (Light Rail) app for Pebble
