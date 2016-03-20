@@ -1,0 +1,65 @@
+{
+    "appKeys": {
+        "COMMAND_ID": 1,
+        "POS_LAT": 3,
+        "POS_LON": 2
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Katharine",
+    "longName": "Caltrain",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/caltrain-icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "data/trips.dat",
+                "name": "DATA_TRIPS",
+                "type": "raw"
+            },
+            {
+                "file": "data/trip_index.dat",
+                "name": "INDEX_TRIP_STOPS",
+                "type": "raw"
+            },
+            {
+                "file": "data/times.dat",
+                "name": "DATA_TIMES",
+                "type": "raw"
+            },
+            {
+                "file": "data/stops.dat",
+                "name": "DATA_STOPS",
+                "type": "raw"
+            },
+            {
+                "file": "data/stop_index.dat",
+                "name": "INDEX_STOP_TIMES",
+                "type": "raw"
+            },
+            {
+                "file": "data/calendar.dat",
+                "name": "DATA_CALENDAR",
+                "type": "raw"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Caltrain",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "40df227e-4715-4369-82ca-ec9de58889ea",
+    "versionLabel": "1.8",
+    "watchapp": {
+        "watchface": false
+    }
+}
